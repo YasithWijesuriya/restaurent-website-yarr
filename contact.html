@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="yasith wijesuriya">
+    <title>kanrin bakers</title>
+    <link rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <nav>
+            <div class="logo">
+                <img src="kanrin.jpg">
+            </div>
+
+            <ul>
+                <li><a href="indedx.html">Home</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="food item.html">Food items</a></li>
+                <li><a href="cakes.html">Cakes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="icon">
+                <div class="searchicon"> <input type="text" class="searchBox" placeholder="Search Here...">
+                 <button class="search-btn"><i class= "fa-solid fa-magnifying-glass"></i></button>
+                 <button class="close-btn"><i class="fa-regular fa-circle-xmark"></i></button>
+             </div>
+                <!--<div class="hearticon"><i class="fa-solid fa-heart"></i></div>-->
+                <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+             </div>
+        </nav><br><br><br><br><br><br><br><br><br>
+        <!--<a href="https://wa.me/[0783498886]" class="whatsapp">whattsapp chat</a> -->  
+        <div class="contact-background"><br>    
+        <div class="order-form">
+            <form action="#" name="orders" method="post">
+            <div class="order-head">Purchase requisition form</div>
+             <div class="input-box">
+               <span class="details">Full name</span><br>
+               <input type="text" name="Full_name" id="Full_name" required>
+             </div>
+
+             <div class="input-box">
+                <div class="details">Contact number</div>
+                <input type="text" name="Phone" id="Phone" maxlength="10" required>
+              </div>
+
+              <div class="input-box">
+                <div class="details">Another Contact number</div>
+                <input type="text" name="Another_Phone" id="Another_Phone" maxlength="10" required>
+              </div>
+
+              <div class="input-box">
+                <div class="details">Address</div>
+                <input type="text" name="Address" id="Address" required>
+              </div>
+
+              <div class="extra_word">
+               <b>What do you want?</b> 
+              </div>
+
+              <div class="input-box">
+                <div class="select-food-details">Food items</div>
+                <select name="Food" required >
+                    <option value="...">..............................</option>
+                    <option value="burger">Burger</option>
+                    <option value="Hotdog">Hotdog</option>
+                    <option value="Chi_roll">Chicken Roll</option>
+                    <option value="C&S">cheese & sausage</option>
+                    <option value="Egg">Egg bun</option>
+                    <option value="Jam">Jam Bun</option>
+                    <option value="prawn">Prawn Bun</option>
+                    <option value="Mini-chi-piz">Mini chicken pizza</option>
+                    <option value="Fish">Fish Bun</option>
+                    <option value="Sandwich">Sandwich</option>
+                    <option value="Kurak-Bread">Kurakkan Bread</option>
+                    <option value="viyan">Viyan Roll</option>
+                
+                </select>
+              </div>
+                <div class="input-box">
+                    <div class="Quan-food">Quantities</div>
+                    <div class="food-dropdown"><select name="F_quantities" required>
+                     <option value="...">...</option>
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                    </select></div>
+                </div>
+
+                <div class="input-box">
+                    <div class="select-cake-details">Cakes</div>
+                    <select name="Cakes"required>
+                        <option value="...">.........................</option>
+                        <option value="Choco1">Chocolate 500g</option>
+                        <option value="Choco2">Chocolate 750g</option>
+                        <option value="Choco3">Chocolate 1kg</option>
+                        <option value="Choco4">Chocolate 2kg</option>
+                        <option value="butter1">Butter 500g</option>
+                        <option value="butter2">Butter 1kg</option>
+                        <option value="butter3">Butter 2kg</option>
+                        <option value="Ribbon1">Ribbon 500g</option>
+                        <option value="Ribbon2">Ribbon 1kg</option>
+                        <option value="Ribbon3">Ribbon 2kg</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <div class="Quan-cake">Quantities</div>
+                    <div class="cake-dropdown"><select name="Cake_quantities" required>
+                     <option value="...">...</option>
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                    </select></div>
+                </div>
+                
+                <div class="extra_word">
+                    <b>If you want a custom design cake ;</b> 
+                </div>
+                
+                <div class="whatsapp-link">
+                    <a href="https://wa.me/[0783498886]" class="whatsapp">whatsapp chat</a>
+                </div>
+                <div class="whatsapp-icon">
+                    <i class="fa-solid fa-message"></i>
+                </div>
+                <div class="payment-methods">
+                    <div class="payment-word">Payment methods</div>
+                    <div class="card">
+                        <input type="radio" name="payment"value="card" required> Card payment 
+                    </div>
+                    <div class="cash">
+                        <input type="radio" name="payment"value="cod" required> Cash On Delivery 
+                    </div><br> 
+                </div>
+
+                <div class="submit-order">
+                    <input type="submit" name="btn" value="Submit">
+                </div>
+
+            </form>
+        </div>
+        </div><br><br><br>
+
+        <br><br><br><br><br><br><br>
+        <div class="contact-footer">
+           <div class="cake-socialicons">
+               <a href="https://www.facebook.com/yasith.wijesuriya.52" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+               <a href="https://www.instagram.com/yasith_wijesuriya_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-google-plus"></i></a>
+               <a href=""><i class="fa-brands fa-youtube"></i></a>
+           </div>
+           <div class="contact-footerNav">
+               <ul>
+                   <li><a href="indedx.html">Home</a></li>
+                   <li><a href="location.html">Location</a></li>
+                   <li><a href="food item.html">Food item</a></li>
+                   <li><a href="cakes.html">Cakes</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+                   <li><a href="about.html">About</a></li>
+               </ul>
+           </div>
+           
+        </div>
+        <div class="contact-Bottom">
+           <h>Copyright &copy; 2024 ; Design by <span class = "contact-designer">YASITH WIJESURIYA</span></h>
+       </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+</body>
+</html>

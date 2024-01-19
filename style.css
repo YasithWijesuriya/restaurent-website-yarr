@@ -1,0 +1,1602 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+section nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 , 0.5);
+    z-index: 1000;
+
+}
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 0 10px;
+
+}
+section nav ul{
+    list-style: none;
+}
+section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+   
+}
+section nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.1s;
+
+    
+}
+
+section nav ul li a:hover{
+    color:chartreuse;
+}
+
+
+section nav .icon .cart {
+    margin-left:120px;
+    margin-bottom:20px;
+    font-size: 20px;
+
+    
+    
+}
+
+
+section nav .icon i:hover{
+    color:chartreuse;
+}
+
+section nav .icon .searchicon .search-btn {
+    width:40px;
+    height:70px;
+    background-color: #fff;
+    border:none;
+    position:absolute;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top:40px;
+    margin-left:60px;
+
+    
+    
+    
+    
+    
+}
+section nav .icon .searchicon .close-btn{
+    background-color: #fff;
+    color:crimson;
+    cursor: pointer;
+    border:none;
+    position:absolute;
+    z-index: -1;
+    margin-left: 60px;
+
+
+    
+
+}
+section nav .icon .searchicon .searchBox{
+    width:20px;
+    height:20px;
+    border-radius: 25px;
+    background-color:lightgreen;
+    color:black;
+    font-weight: bold;
+    outline: none;
+    border-color: crimson;
+    margin-left:60px ;
+    
+
+}
+section nav .icon .searchicon{
+    display:flex;
+    align-items: center;
+}
+section nav .icon .searchicon.active .searchbox{
+    width:250px;
+}
+section nav .icon .searchicon.active .searchBox .search-btn{
+    transform:translate(210px, 2px) scale(0.8);
+    background-color: transparent;
+}
+section nav .icon  .searchicon.active .searchBox .close-btn{
+    z-index: 0;
+    transform: translate(250px, 2px);
+}
+
+
+.searchform label {
+    color: black;
+    font-size: 1.3rem;
+    padding-right: 1.3rem;
+    padding:10px;
+    cursor: pointer;
+}
+.searchform label:hover{
+    color:crimson;
+}
+*/
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:relative;
+    top: 130px;
+}
+section .main .main_text h1{
+    font-size: 60px;
+    position:relative;
+    top: 150px;
+    left:80px
+}
+section .main .main_text h1 span{
+    margin-left: 15px;
+    color:chartreuse;
+    font-family: mv boli;
+    line-height: 22px;
+    line-size: 70px;
+
+}
+section .main_image{
+    padding:70px 70px;
+    width: 700px;
+    position:relative;
+    left: 650px;
+    top:-90px;
+}
+section p{
+    width:550px;
+    text-align: justify;
+    position: relative;
+    left: 80px;
+    bottom: 60px;
+    top:-330px;
+    line-height: 22px;
+    font-family: Cursive;
+    color:lightgreen;
+}
+section .main_btn  {
+    background-color: chartreuse;
+    position:relative;
+    left:80px;
+    top:40px;
+    width:150px;
+    cursor: pointer;
+    border-radius:7px;
+    top:-260px;
+    padding: 12px 25px;
+} 
+section .main_btn a{
+    color:crimson;
+    margin-right: 1px;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+section .main_btn i{
+    color:crimson;
+    transition: 0.3s;
+}
+section .main_btn:hover i{
+    transform: translate(7px);
+}
+.about .about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .about_main .image img{
+    width: 700px;
+    position: relative;
+    top: 10px;
+    left:80px;
+}
+.about .about_main .about_text h1 span a{
+    color:chartreuse;
+    margin-right: 20px;
+    font-family: mv boli;
+
+
+
+}
+.about .about_main .about_text h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+.about .about_main .about_text h3{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+    
+}
+.about .about_main .about_text p{
+    width: 650px;
+    text-align: justify;
+    margin-right:30px;
+    line-height: 22px;
+    font-weight: bolder;
+
+    
+
+}
+.about .about_main .about_text p span {
+    font-weight: bolder;
+    color:rgb(89, 168, 10);
+}
+.about .about_main .about_text p span h{
+    color:red
+}
+.about .about_btn{
+    background-color: chartreuse;
+    padding: 12px 25px;
+    text-decoration: none;
+    color:crimson;
+    position: relative;
+    left: 51%;
+    top: 50px;
+    border-radius: 7px;
+    font-weight: bold;
+    
+}
+.footer{
+    background-color: #111;
+    width:100%;
+    padding: 70px 30px 20px 0;
+
+}
+.socialicons{
+    display:flex;
+    justify-content: center;
+     
+}
+.socialicons a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin:20px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size:20px;
+    color:chartreuse;
+    
+}
+.socialicons a:hover{
+    background-color:crimson;
+    transition:1s;
+}
+.footerNav{
+    margin:30px 0;
+
+}
+.footerNav ul{
+    display:flex; /*flex ගුණාංගය flexbox පිරිසැලසුම් මාදිලිය සක්‍රීය කරයි, ඔබට කන්ටේනරයක් තුළ මූලද්‍රව්‍ය පෙළගැස්වීම, පරතරය සහ පිළිවෙල හැසිරවීමට ඉඩ සලසයි*/
+    justify-content: center;
+}
+.footerNav ul li {
+    display: inline-block; /*list එකේ තිත් නැති වෙනවා */
+
+}
+
+.footerNav ul li a{
+    color:chartreuse;
+    margin:20px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity:0.5s;
+    color:crimson;
+}
+.footerBottom{
+    background-color: #000;
+    padding:20px;
+    text-align: center;
+    color:white;
+}
+.designer{
+    letter-spacing:1px ;
+}
+.designer:hover{
+    opacity:0.5;
+
+}
+/*food item*/
+
+section .menu .menu_box{
+    width: 99%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+section .menu .menu_box .menu_card{
+    width: 260px;
+    height: 440px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 , 0.2);
+    
+    
+}  
+.menu .menu_box .menu_card .menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+.menu .menu_box .menu_card .menu_image:hover img{
+    transform: scale(1.1);
+}
+
+section .menu .menu_box .menu_card .menu_image img{
+    width:220px;
+    height: 130px;
+    object-fit: cover;
+    object-position: center;
+}
+section .menu .menu_box .menu_card .menu_info h2{
+    padding:10px 0 ;
+    border-bottom-style: solid;
+    border-width: 2px;    
+}
+
+section .menu .menu_box .menu_card .menu_info b{
+    color:lightcoral;
+    font-weight: 400;
+
+}
+section .menu .menu_box .menu_card .menu_info h3{
+    padding:10px 0;
+}
+section .menu .menu_box .menu_card .menu_info .menu_icon i{
+    padding:10px 0 30px 0;
+    color:darkorange;
+}
+section .menu .menu_box .menu_card .menu_info a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color:crimson;
+    padding:8px 10px;
+    border-radius: 7px;
+    color:chartreuse;
+}
+
+/*location*/
+
+
+section .location .location_box{
+    width:99%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-rows: 10px 1px 1px 1px;
+    grid-gap: 100px;
+    padding-left: 350px;
+    
+}
+section .location .location_box .location_link{
+    width: 340px;
+    height: 260px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    box-shadow: 0 0 10px rgba(14, 3, 1, 0.3);
+    
+}
+section .location .location_box h2{
+    color:rgb(60, 224, 19);
+    text-align: center;
+    }
+section .loc_bg img{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    height:460px; 
+    z-index:-1;
+    padding:0 100px 0 0;
+  }    
+
+  /*cakes*/
+ section .back-color{
+    background-image: linear-gradient(lightgreen,white,brown);
+    width:100%;
+    height:700px;
+ }
+ section .cakes-head h1{
+    display:flex;
+    padding: 10px 80px 30px 100px;
+    color:black;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+ section .cakes-main img{
+    display:flex;
+    margin-top: -550px;
+    margin-left:750px;
+    width:550px;
+    height:500px;
+ }
+section .cakes-para p{
+    margin-top:350px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 22px;
+    color:lightgreen;
+    font-family:Helvetica ;
+    line-height: 22px;
+    font-family: Cursive;
+    
+}
+
+section .cake_btn{
+    background-color: chartreuse;
+    position:relative;
+    left:80px;
+    top:40px;
+    width:150px;
+    cursor: pointer;
+    border-radius:7px;
+    top:-260px;
+    padding: 12px 25px;
+    
+}
+section .cake_btn a{
+    color:crimson;
+    margin-right: 1px;
+    text-decoration: none;
+    font-weight: bold;
+}
+section .cake_btn a i{
+    transition: 0.3s;
+    
+}
+section .cake_btn i{
+    color:crimson;
+}
+section .cake_btn:hover i{
+    transform: translate(7px);
+}
+section .choco-head h1{
+    padding-left:30%;
+    padding-top:50px;
+    font-size: 50px;
+    color:brown;
+    font-weight: bold;
+    letter-spacing: 10px;
+
+}
+section .cakes-item-1{
+    padding-left:60px;
+    margin-top:70px;
+}
+
+section .cakes-item-1 .choco-images img{
+        width:320px; 
+        height: 300px;
+        padding:80px 50px 20px 50px;
+        transition: 0.1s;
+        
+}
+section .cakes-item-1 .choco-images:hover img{
+    transform: scale(1.1)
+}
+section .cakes-item-1 .cake-info{
+    margin-left:50px;
+    line-height:30px;
+}
+section .cakes-item-1 .cake-info h2{
+    font-size: 30px;
+}
+section .cakes-item-1 .cake-info h3{
+    color:#111;
+    margin-left:10px;
+}
+section .cakes-item-1 .cake-shop a{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:30px;
+    font-weight: bold;
+}
+section .cakes-item-1 .cake-shop i{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:10px;
+    transition:0.1s;
+}
+section .cakes-item-1 .cake-shop{
+    background-color: burlywood;
+    width:200px;
+    height:40px;
+    margin-left:60px;
+    font-size: 18px;
+    border-radius: 0 7px;
+}
+
+section .cakes-item-1 .cake-shop:hover i{
+    transform: translate(5px);
+}
+
+section .cakes-item-2{
+    padding-left:370px;
+    margin-top:-405px;
+}
+section .cakes-item-2 .choco-images img{
+    width:320px; 
+    height: 300px;
+    padding:80px 50px 20px 50px;
+    transition: 0.1s;
+    
+}
+section .cakes-item-2 .choco-images:hover img{
+transform: scale(1.1)
+}
+section .cakes-item-2 .cake-info{
+margin-left:50px;
+line-height:30px;
+}
+section .cakes-item-2 .cake-info h2{
+font-size: 30px;
+}
+section .cakes-item-2 .cake-info h3{
+color:#111;
+margin-left:10px;
+}
+section .cakes-item-2 .cake-shop a{
+text-decoration: none;
+color:#000;
+position: relative;
+margin-top:10px;
+margin-left:30px;
+font-weight: bold;
+}
+section .cakes-item-2 .cake-shop i{
+text-decoration: none;
+color:#000;
+position: relative;
+margin-top:10px;
+margin-left:10px;
+transition:0.1s;
+}
+section .cakes-item-2 .cake-shop{
+background-color: burlywood;
+width:200px;
+height:40px;
+margin-left:60px;
+font-size: 18px;
+border-radius: 0 7px;
+}
+
+section .cakes-item-2 .cake-shop:hover i{
+transform: translate(5px);
+}
+
+section .cakes-item-3{
+    padding-left:670px;
+    margin-top:-405px;
+}
+section .cakes-item-3 .choco-images img{
+    width:320px;
+    height: 300px; 
+    padding:80px 50px 20px 50px;
+    transition: 0.1s;
+    
+}
+section .cakes-item-3 .choco-images:hover img{
+transform: scale(1.1)
+}
+section .cakes-item-3 .cake-info{
+margin-left:50px;
+line-height:30px;
+}
+section .cakes-item-3 .cake-info h2{
+font-size: 30px;
+}
+section .cakes-item-3 .cake-info h3{
+color:#111;
+margin-left:10px;
+}
+section .cakes-item-3 .cake-shop a{
+text-decoration: none;
+color:#000;
+position: relative;
+margin-top:10px;
+margin-left:30px;
+font-weight: bold;
+}
+section .cakes-item-3 .cake-shop i{
+text-decoration: none;
+color:#000;
+position: relative;
+margin-top:10px;
+margin-left:10px;
+transition:0.1s;
+}
+section .cakes-item-3 .cake-shop{
+background-color: burlywood;
+width:200px;
+height:40px;
+margin-left:60px;
+font-size: 18px;
+border-radius: 0 7px;
+}
+
+section .cakes-item-3 .cake-shop:hover i{
+transform: translate(5px);
+}
+
+section .cakes-item-4{
+    padding-left:970px;
+    margin-top:-405px;
+}
+section .cakes-item-4 .choco-images img{
+    width:320px;
+    height: 300px; 
+    padding:80px 50px 20px 50px;
+    transition: 0.1s;
+    
+}
+section .cakes-item-4 .choco-images:hover img{
+transform: scale(1.1)
+}
+section .cakes-item-4 .cake-info{
+margin-left:50px;
+line-height:30px;
+}
+section .cakes-item-4 .cake-info h2{
+font-size: 30px;
+}
+section .cakes-item-4 .cake-info h3{
+color:#111;
+margin-left:10px;
+}
+section .cakes-item-4 .cake-shop a{
+text-decoration: none;
+color:#000;
+position: relative;
+margin-top:10px;
+margin-left:30px;
+font-weight: bold;
+}
+section .cakes-item-4 .cake-shop i{
+text-decoration: none;
+color:#000;
+position: relative;
+margin-top:10px;
+margin-left:10px;
+transition:0.1s;
+}
+section .cakes-item-4 .cake-shop{
+background-color: burlywood;
+width:200px;
+height:40px;
+margin-left:60px;
+font-size: 18px;
+border-radius: 0 7px;
+}
+
+section .cakes-item-4 .cake-shop:hover i{
+transform: translate(5px);
+}
+section .butter-head h1{
+    padding-left:30%;
+    padding-top:50px;
+    font-size: 50px;
+    color:darkgoldenrod;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+section .butter-back-color{
+    background-image: linear-gradient(lightgreen,white,darkgoldenrod);
+    width:100%;
+    height:700px;
+ }
+ section .but-cakes-item-1{
+    padding-left:80px;
+    margin-top:70px;
+}
+
+section .but-cakes-item-1 .butter-images img{
+        width:320px; 
+        height: 300px;
+        padding:80px 50px 20px 50px;
+        transition: 0.1s;
+        
+}
+section .but-cakes-item-1 .butter-images:hover img{
+    transform: scale(1.1);
+}
+section .but-cakes-item-1 .but-cake-info{
+    margin-left:50px;
+    line-height:30px;
+}
+section .but-cakes-item-1 .but-cake-info h2{
+    font-size: 30px;
+}
+section .but-cakes-item-1 .but-cake-info h3{
+    color:#111;
+    margin-left:10px;
+}
+section .but-cakes-item-1 .cake-shop a{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:30px;
+    font-weight: bold;
+}
+section .but-cakes-item-1 .cake-shop i{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:10px;
+    transition:0.1s;
+}
+section .but-cakes-item-1 .cake-shop{
+    background-color: burlywood;
+    width:200px;
+    height:40px;
+    margin-left:60px;
+    font-size: 18px;
+    border-radius: 0 7px;
+}
+
+section .but-cakes-item-1 .cake-shop:hover i{
+    transform: translate(5px);
+}
+section .but-cakes-item-2{
+    padding-left:500px;
+    margin-top:-405px;
+}
+
+section .but-cakes-item-2 .butter-images img{
+        width:320px; 
+        height: 300px;
+        padding:80px 50px 20px 50px;
+        transition: 0.1s;
+        
+}
+section .but-cakes-item-2 .butter-images:hover img{
+    transform: scale(1.1)
+}
+section .but-cakes-item-2 .but-cake-info{
+    margin-left:50px;
+    line-height:30px;
+}
+section .but-cakes-item-2 .but-cake-info h2{
+    font-size: 30px;
+}
+section .but-cakes-item-2 .but-cake-info h3{
+    color:#111;
+    margin-left:10px;
+}
+section .but-cakes-item-2 .cake-shop a{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:30px;
+    font-weight: bold;
+}
+section .but-cakes-item-2 .cake-shop i{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:10px;
+    transition:0.1s;
+}
+section .but-cakes-item-2 .cake-shop{
+    background-color: burlywood;
+    width:200px;
+    height:40px;
+    margin-left:60px;
+    font-size: 18px;
+    border-radius: 0 7px;
+}
+
+section .but-cakes-item-2 .cake-shop:hover i{
+    transform: translate(5px);
+}
+
+section .but-cakes-item-3{
+    padding-left:950px;
+    margin-top:-405px;
+}
+
+section .but-cakes-item-3 .butter-images img{
+        width:320px; 
+        height: 300px;
+        padding:80px 50px 20px 50px;
+        transition: 0.1s;
+        
+}
+section .but-cakes-item-3 .butter-images:hover img{
+    transform: scale(1.1)
+}
+section .but-cakes-item-3 .but-cake-info{
+    margin-left:50px;
+    line-height:30px;
+}
+section .but-cakes-item-3 .but-cake-info h2{
+    font-size: 30px;
+}
+section .but-cakes-item-3 .but-cake-info h3{
+    color:#111;
+    margin-left:10px;
+}
+section .but-cakes-item-3 .cake-shop a{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:30px;
+    font-weight: bold;
+}
+section .but-cakes-item-3 .cake-shop i{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:10px;
+    transition:0.1s;
+}
+section .but-cakes-item-3 .cake-shop{
+    background-color: burlywood;
+    width:200px;
+    height:40px;
+    margin-left:60px;
+    font-size: 18px;
+    border-radius: 0 7px;
+}
+
+section .but-cakes-item-3 .cake-shop:hover i{
+    transform: translate(5px);
+}
+
+section .ribbon-head h1{
+    padding-left:30%;
+    padding-top:50px;
+    font-size: 50px;
+    color:rgb(238, 98, 122);
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+section .ribbon-back-color{
+    background-image: linear-gradient(lightgreen,white,rgb(236, 23, 59));
+    width:100%;
+    height:700px;
+ }
+
+ section .ribbon-cakes-item-1{
+    padding-left:80px;
+    margin-top:70px;
+}
+
+section .ribbon-cakes-item-1 .ribbon-images img{
+        width:320px; 
+        height: 300px;
+        padding:80px 50px 20px 50px;
+        transition: 0.1s;
+        
+}
+section .ribbon-cakes-item-1 .ribbon-images:hover img{
+    transform: scale(1.1)
+}
+section .ribbon-cakes-item-1 .ribbon-cake-info{
+    margin-left:50px;
+    line-height:30px;
+}
+section .ribbon-cakes-item-1 .ribbon-cake-info h2{
+    font-size: 30px;
+}
+section .ribbon-cakes-item-1 .ribbon-cake-info h3{
+    color:#111;
+    margin-left:10px;
+}
+section .ribbon-cakes-item-1 .cake-shop a{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:30px;
+    font-weight: bold;
+}
+section .ribbon-cakes-item-1 .cake-shop i{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:10px;
+    transition:0.1s;
+}
+section .ribbon-cakes-item-1 .cake-shop{
+    background-color: burlywood;
+    width:200px;
+    height:40px;
+    margin-left:60px;
+    font-size: 18px;
+    border-radius: 0 7px;
+}
+
+section .ribbon-cakes-item-1 .cake-shop:hover i{
+    transform: translate(5px);
+}
+
+section .ribbon-cakes-item-2{
+    padding-left:430px;
+    margin-top:-405px;
+}
+
+section .ribbon-cakes-item-2 .ribbon-images img{
+        width:320px; 
+        height: 300px;
+        padding:80px 50px 20px 50px;
+        transition: 0.1s;
+        
+}
+section .ribbon-cakes-item-2 .ribbon-images:hover img{
+    transform: scale(1.1)
+}
+section .ribbon-cakes-item-2 .ribbon-cake-info{
+    margin-left:50px;
+    line-height:30px;
+}
+section .ribbon-cakes-item-2 .ribbon-cake-info h2{
+    font-size: 30px;
+}
+section .ribbon-cakes-item-2 .ribbon-cake-info h3{
+    color:#111;
+    margin-left:10px;
+}
+section .ribbon-cakes-item-2 .cake-shop a{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:30px;
+    font-weight: bold;
+}
+section .ribbon-cakes-item-2 .cake-shop i{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:10px;
+    transition:0.1s;
+}
+section .ribbon-cakes-item-2 .cake-shop{
+    background-color: burlywood;
+    width:200px;
+    height:40px;
+    margin-left:60px;
+    font-size: 18px;
+    border-radius: 0 7px;
+}
+
+section .ribbon-cakes-item-2 .cake-shop:hover i{
+    transform: translate(5px);
+}
+section .ribbon-cakes-item-3{
+    padding-left:450px;
+    margin-top:-405px;
+}
+
+section .ribbon-cakes-item-3 .ribbon-images img{
+        width:320px; 
+        height: 300px;
+        padding:80px 50px 20px 50px;
+        transition: 0.1s;
+        
+}
+section .ribbon-cakes-item-3 .ribbon-images:hover img{
+    transform: scale(1.1)
+}
+section .ribbon-cakes-item-3 .ribbon-cake-info{
+    margin-left:50px;
+    line-height:30px;
+}
+section .ribbon-cakes-item-3 .ribbon-cake-info h2{
+    font-size: 30px;
+}
+section .ribbon-cakes-item-3 .ribbon-cake-info h3{
+    color:#111;
+    margin-left:10px;
+}
+section .ribbon-cakes-item-3 .cake-shop a{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:30px;
+    font-weight: bold;
+}
+section .ribbon-cakes-item-3 .cake-shop i{
+    text-decoration: none;
+    color:#000;
+    position: relative;
+    margin-top:10px;
+    margin-left:10px;
+    transition:0.1s;
+}
+section .ribbon-cakes-item-3 .cake-shop{
+    background-color: burlywood;
+    width:200px;
+    height:40px;
+    margin-left:60px;
+    font-size: 18px;
+    border-radius: 0 7px;
+}
+
+section .ribbon-cakes-item-3 .cake-shop:hover i{
+    transform: translate(5px);
+}
+section .customDesign-head h1{
+    padding-top:150px;
+    padding-left:25%;
+    font-size: 50px;
+    color:#000;
+    font-weight: bolder;
+
+}
+section .Custom-design-para h4{
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    color:rgb(18, 216, 18);
+    font-family: mv boli;
+}
+
+section .customDesign-img  .custom-cake-1  img{
+    display:flex;
+    width:250px;
+    height:200px;
+    margin-top:40px;
+    margin-left:0px;
+
+}
+section .customDesign-img .custom-cake-2 img{
+    display:flex;
+    width:250px;
+    height:200px;
+    margin-top:-200px;
+    margin-left:300px;                                                                             
+    
+}
+section .customDesign-img .custom-cake-3  img{
+    display:flex;
+    width:250px;
+    height:200px;
+    margin-left:600px;
+    margin-top:-200px;
+}
+section .customDesign-img .custom-cake-4  img{
+    display:flex;
+    width:250px;
+    height:200px;
+    margin-top:-200px;
+    margin-left:900px;
+    
+}
+section .customDesign-img .custom-cake-5  img{
+    display:flex;
+    width:250px;
+    height:200px;
+    margin-top:-200px;
+    margin-left:1200px;
+    
+}
+section .customDesign-img .custom-cake-6  img{
+    display:flex;
+    width:250px;
+    height:200px;
+    margin-top:-200px;
+    margin-left:1500px;
+    
+}
+section .customDesign-img .custom-cake-7  img{
+    display:flex;
+    width:250px;
+    height:200px;
+    margin-top:-200px;
+    margin-left:1800px;
+    
+}
+section .customDesign-img .custom-cake-8  img{
+    display:flex;
+    width:250px;
+    height:200px;
+    margin-top:-200px;
+    margin-left:2100px;
+    
+}
+section .customDesign-img .custom-cake-9  img{
+    display:flex;
+    width:250px;
+    height:200px;
+    margin-top:-200px;
+    margin-left:2400px;
+    
+}
+section .customDesign-img .custom-cake-10  img{
+    display:flex;
+    width:250px;
+    height:200px;
+    margin-top:-200px;
+    margin-left:2700px;
+    
+}
+
+.cake-footer{
+    background-color: #111;
+    width:1349px;
+    padding: 70px 30px 20px;
+    margin-left: -80px;
+    margin-top: -20px;
+    margin-bottom:-20px ;
+
+}
+.cake-socialicons{
+    display:flex;
+    justify-content: center;
+     
+}
+.cake-socialicons a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin:20px;
+    border-radius: 50%;
+}
+.cake-socialicons a i{
+    font-size:20px;
+    color:chartreuse;
+    
+}
+.cake-socialicons a:hover{
+    background-color:crimson;
+    transition:1s;
+}
+.cake-footerNav{
+    margin:30px 0;
+}
+.cake-footerNav ul{
+    display:flex; /*flex ගුණාංගය flexbox පිරිසැලසුම් මාදිලිය සක්‍රීය කරයි, ඔබට කන්ටේනරයක් තුළ මූලද්‍රව්‍ය පෙළගැස්වීම, පරතරය සහ පිළිවෙල හැසිරවීමට ඉඩ සලසයි*/
+    justify-content: center;
+}
+.cake-footerNav ul li {
+    display: inline-block; /*list එකේ තිත් නැති වෙනවා */
+
+}
+
+.cake-footerNav ul li a{
+    color:chartreuse;
+    margin:20px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.cake-footerNav ul li a:hover{
+    opacity:0.5s;
+    color:crimson;
+}
+.cake-Bottom {
+    background-color: #000;
+    margin-left: -80px;
+    width:1349px;
+    padding:20px;
+    text-align: center;
+    color:#fff
+}
+
+
+.cake-Bottom .cake-designer{
+    letter-spacing:1px ;
+}
+.cake-Bottom .cake-designer:hover{
+    opacity: 0.5;
+}
+
+/*contact*/
+section .order-form{
+    display:flex;
+    margin-top:20px;
+    padding-bottom:20px;
+    
+}
+section .contact-background{
+    background-image:linear-gradient(lightgreen,white);
+    width:600px;
+    margin-left: 400px;
+    box-shadow: 0 0 10px rgba(14, 3, 1, 0.3);
+}
+section .order-head{
+    margin-top:10px;
+    margin-bottom:25px;
+    font-size: 30px;
+    margin-left: 150px;
+    font-family:fantasy ;
+    box-shadow:0 0 10px rgba(241, 14, 14, 0.3);
+}
+
+section .order-form .input-box{
+    margin-left: 40px;
+}
+section .order-form .input-box input{
+    padding-top:5px;
+    width:400px ;
+    border-radius: 5px;
+    background-color:lightgray;
+    color:black;
+    font-weight: bold;
+}
+section .order-form .input-box .details{
+    padding-top:10px
+}
+section .order-form .extra_word{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+}
+
+section .order-form .input-box select{
+    color:black;
+    font-weight: bolder;
+    background-color:lightgrey;
+
+}
+section .order-form .input-box .Quan-food{
+    padding-left:180px;
+    margin-top: -37px;
+}
+section .order-form .input-box .food-dropdown{
+    padding-left:180px;
+}
+section .order-form .input-box .select-cake-details{
+    padding-top:10px;
+}
+section .order-form .input-box .Quan-cake{
+    padding-left: 180px;
+    margin-top: -37px;
+}
+section .order-form .input-box .cake-dropdown{
+    padding-left:180px;
+}
+section .order-form .whatsapp-link{
+    padding-left:20px;
+}
+section .order-form .whatsapp-link a{
+    text-decoration: none;
+    background-color:darkgreen;
+    padding: 12px 40px 10px 5px;
+    color:chartreuse;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+section .order-form .whatsapp-icon{
+    padding-left: 170px;
+    margin-top: -17px;
+    color:chartreuse;
+    cursor: pointer;
+}
+section .order-form .payment-methods .payment-word{
+    padding-top:30px;
+    padding-left:10px;
+    font-weight: bold;
+}
+section .order-form .payment-methods .card{
+    padding-top:5px;
+    padding-left:40px;
+    color:black;
+
+}
+section .order-form .payment-methods .cash{
+    padding-left:200px;
+    margin-top:-17px;
+    color:black
+}
+section .order-form .submit-order{
+    padding-left:20px;
+}
+
+section .order-form .submit-order input{
+    padding:10px 20px 10px 20px;
+    border-radius: 7px;
+    background-color:crimson;
+    color:chartreuse;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.contact-footer{
+    background-color: #111;
+    width:1360px;
+    padding: 70px 30px 20px;
+    margin-left:0px;
+    margin-top: -20px;
+    margin-bottom:-20px ;
+
+}
+.contact-socialicons{
+    display:flex;
+    justify-content: center;
+     
+}
+.contact-socialicons a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin:20px;
+    border-radius: 50%;
+}
+.contact-socialicons a i{
+    font-size:20px;
+    color:chartreuse;
+    
+}
+.contact-socialicons a:hover{
+    background-color:crimson;
+    transition:1s;
+}
+.contact-footerNav{
+    margin:30px 0;
+}
+.contact-footerNav ul{
+    display:flex; /*flex ගුණාංගය flexbox පිරිසැලසුම් මාදිලිය සක්‍රීය කරයි, ඔබට කන්ටේනරයක් තුළ මූලද්‍රව්‍ය පෙළගැස්වීම, පරතරය සහ පිළිවෙල හැසිරවීමට ඉඩ සලසයි*/
+    justify-content: center;
+}
+.contact-footerNav ul li {
+    display: inline-block; /*list එකේ තිත් නැති වෙනවා */
+
+}
+
+.contact-footerNav ul li a{
+    color:chartreuse;
+    margin:20px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.contact-footerNav ul li a:hover{
+    opacity:0.5s;
+    color:crimson;
+}
+.contact-Bottom {
+    background-color: #000;
+    width:1360px;
+    padding:20px;
+    text-align: center;
+    color:#fff
+}
+
+
+.contact-Bottom .contact-designer{
+    letter-spacing:1px ;
+}
+.contact-Bottom .contact-designer:hover{
+    opacity: 0.5;
+}
+/*about*/
+section .about_head{
+    color:chartreuse;
+    padding-top:120px;
+    margin-left: 60px;
+}
+section .about_head span{
+    font-family: mv boli;
+    margin-right:30px;
+    font-size: 60px;
+}
+section .about_head h1{
+    font-size: 60px;
+}
+section .about-para {
+    width:900px;
+    padding-left:60px;
+    padding-top:20px;
+    font-family:cursive;
+    color:cadetblue
+}
+section .myself_img img{
+    width:350px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(250, 9, 21, 0.5);
+    
+}
+section .myself_img {
+    padding-left:950px;
+    margin-top:-480px;
+}
+section .myself_img a{
+    text-decoration: none;
+}
+section .mr_yasith_head{
+    margin-left: 1050px;
+    padding-top: 10px;
+    font-family:serif;
+    font-weight: bold;
+}
+section .about-head h3{
+    padding-top:150px;
+    padding-left: 250px;
+    font-size: 30px;
+
+}
+section .Forefrontiers_img img{
+    display:flex;
+    width:230px;
+    height:250px;
+    box-shadow:0 0 10px rgba(17, 15, 16, 0.5) ;
+}
+section .Forefrontiers_img .Forefrontiers_1 img{
+    margin-top:40px;
+    margin-left:100px;
+    
+}
+section .Forefrontiers_img .Forefrontiers_2 img{
+    margin-left:420px;
+    margin-top:-249px;
+}
+section .Forefrontiers_img .Forefrontiers_3 img{
+    margin-left:740px;
+    margin-top:-249px;
+}
+section .Forefrontiers_img .Forefrontiers_4 img{
+    margin-left: 1060px;
+}
+section .Forefrontiers_1_name{
+    margin-left:100px;
+}
+section .Forefrontiers_1_name h4{
+    margin-left:70px;
+    font-size: 20px;
+}
+section .Forefrontiers_1_name b{
+    margin-left:40px;
+    color:darksalmon;
+}
+
+section .Forefrontiers_2_name{
+    margin-left:380px;
+}
+section .Forefrontiers_2_name h4{
+    margin-top:-40px;
+    margin-left:70px;
+    font-size: 20px;
+}
+section .Forefrontiers_2_name b{
+    margin-left:50px;
+    color:darksalmon;
+}
+section .Forefrontiers_3_name{
+    margin-left:700px;
+}
+section .Forefrontiers_3_name h4{
+    margin-top:-40px;
+    margin-left:70px;
+    font-size: 20px;
+}
+section .Forefrontiers_3_name b{
+    margin-left:85px;
+    color:darksalmon;
+}
+section .Forefrontiers_4_name{
+    margin-left:1050px;
+}
+section .Forefrontiers_4_name h4{
+    margin-top:-40px;
+    margin-left:70px;
+    font-size: 20px;
+}
+section .Forefrontiers_4_name b{
+    margin-left:35px;
+    color:darksalmon;
+}
+.about-footer{
+    background-color: #111;
+    width:1349px;
+    padding: 70px 30px 20px;
+    margin-left:0px;
+    margin-top: -20px;
+    margin-bottom:-20px ;
+
+}
+.about-socialicons{
+    display:flex;
+    justify-content: center;
+     
+}
+.about-socialicons a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin:20px;
+    border-radius: 50%;
+}
+.about-socialicons a i{
+    font-size:20px;
+    color:chartreuse;
+    
+}
+.about-socialicons a:hover{
+    background-color:crimson;
+    transition:1s;
+}
+.about-footerNav{
+    margin:30px 0;
+}
+.about-footerNav ul{
+    display:flex; /*flex ගුණාංගය flexbox පිරිසැලසුම් මාදිලිය සක්‍රීය කරයි, ඔබට කන්ටේනරයක් තුළ මූලද්‍රව්‍ය පෙළගැස්වීම, පරතරය සහ පිළිවෙල හැසිරවීමට ඉඩ සලසයි*/
+    justify-content: center;
+}
+.about-footerNav ul li {
+    display: inline-block; /*list එකේ තිත් නැති වෙනවා */
+
+}
+
+.about-footerNav ul li a{
+    color:chartreuse;
+    margin:20px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.about-footerNav ul li a:hover{
+    opacity:0.5s;
+    color:crimson;
+}
+.about-Bottom {
+    background-color: #000;
+    margin-left:0px;
+    width:1349px;
+    padding:20px;
+    text-align: center;
+    color:#fff
+}
+
+
+.about-Bottom .about-designer{
+    letter-spacing:1px ;
+}
+.about-Bottom .about-designer:hover{
+    opacity: 0.5;
+}
